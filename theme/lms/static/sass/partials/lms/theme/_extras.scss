@@ -5,7 +5,8 @@ $content-padding-bottom: 10px;
 $header-height: 75px;
 $footer-height: 125.5px;
 
-body, body.view-profile {
+body,
+body.view-profile {
   min-height: initial;
   background-color: #fff;
 }
@@ -14,7 +15,8 @@ body, body.view-profile {
   border-radius: 0;
 }
 
-.btn, .global-header .nav-links .secondary .btn {
+.btn,
+.global-header .nav-links .secondary .btn {
   border-radius: 0;
 }
 
@@ -22,7 +24,13 @@ body, body.view-profile {
   font-family: $font-family-title;
 }
 
-h1, h2, h3, h1 span, h2 span, h3 span, .nav-item {
+h1,
+h2,
+h3,
+h1 span,
+h2 span,
+h3 span,
+.nav-item {
   font-family: $font-family-title;
 }
 
@@ -32,7 +40,10 @@ h1, h2, h3, h1 span, h2 span, h3 span, .nav-item {
     padding-bottom: $content-padding-bottom;
     margin-top: 75px;
   }
-  min-height: calc(100vh - #{$header-height + $content-padding-top + $content-padding-bottom + $footer-height}); // sticky footer
+  min-height: calc(
+    100vh - #{$header-height + $content-padding-top + $content-padding-bottom +
+      $footer-height}
+  ); // sticky footer
 }
 
 ////////////////// Fonts
@@ -80,11 +91,13 @@ header.global-header .nav-links .secondary .dropdown-user-menu {
   text-align: center;
 }
 
-.animation-home-header-pop-up, .home > header .outer-wrapper {
+.animation-home-header-pop-up,
+.home > header .outer-wrapper {
   animation: none;
 }
 
-.highlighted-courses .courses, .find-courses .courses {
+.highlighted-courses .courses,
+.find-courses .courses {
   padding-top: 0;
 }
 
@@ -98,7 +111,7 @@ header.global-header .nav-links .secondary .dropdown-user-menu {
   background: #fff;
   box-shadow: none;
   border-bottom: none;
-  
+
   .intro-inner-wrapper {
     border: none;
     box-shadow: none;
@@ -127,9 +140,9 @@ header.global-header .nav-links .secondary .dropdown-user-menu {
   }
 }
 
-
 /////////////////// Course search
-.find-courses, .university-profile {
+.find-courses,
+.university-profile {
   background-color: #fff;
 }
 
@@ -150,7 +163,9 @@ header.global-header .nav-links .secondary .dropdown-user-menu {
   background-color: #fff;
 }
 
-.view-profile .wrapper-profile-section-container-one .wrapper-profile-section-one {
+.view-profile
+  .wrapper-profile-section-container-one
+  .wrapper-profile-section-one {
   border: solid $primary;
   border-width: 5px 1px 1px 1px;
 }
@@ -170,17 +185,109 @@ header.global-header .nav-links .secondary .dropdown-user-menu {
 .wrapper-footer {
   box-shadow: none;
   padding: 25px 40px;
-  
+
   .wrapper-logo {
-      display: none;
+    display: none;
   }
   .copyright {
-      display: none;
+    display: none;
   }
   .nav-legal ul {
-      display: inline-block;
+    display: inline-block;
   }
   footer#footer-openedx .footer-about-openedx a {
-      float: none;
+    float: none;
   }
+}
+
+/////////////////// Pricing Page
+.bg-img {
+  background: linear-gradient(rgba(16, 11, 11, 0.7), rgba(0, 0, 0, 0.97)),
+    url("https://concept-xvideos.sgp1.digitaloceanspaces.com/edx-assets/pricing_bg.png");
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bg-gray-500 {
+  background-color: #a0aec0;
+}
+
+.rounded-md {
+  border-radius: 0.375rem;
+}
+
+.m-8 {
+  margin: 2rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mx-8 {
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+.mx-32 {
+  margin-right: 8rem;
+  margin-left: 8rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.content-between {
+  align-content: space-between;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
+}
+
+.w-24 {
+  width: 6rem;
+}
+
+.h-24 {
+  height: 6rem;
+}
+
+.text-base {
+  font-size: 1rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+}
+
+.text-red-800 {
+  color: #9b2c2c;
+}
+
+.block {
+  display: block;
+}
+
+.font-semibold {
+  font-weight: 600;
 }

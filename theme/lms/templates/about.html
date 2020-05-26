@@ -1,0 +1,96 @@
+<%page expression_filter="h"/>
+<%! from django.utils.translation import ugettext as _ %>
+<%inherit file="../main.html" />
+
+<%block name="pagetitle">${_("Payment")}</%block>
+
+<main id="main" aria-label="Content" tabindex="-1" class="bg-img">
+    <div class="m-8">
+        <h1 class="text-white text-center">Payment Platform</h1>
+        <p class="text-white text-center">login in to unlock unlimited course</p>
+    </div>
+    <div class="bg-gray-500 rounded-md mx-32 p-8 flex justify-between mb-4">
+        <div>
+            <p class="text-white min-w-7">1. KBZ Pay</p>
+            <img class="w-24 h-24" src="https://concept-xvideos.sgp1.digitaloceanspaces.com/edx-assets/kbz_pay.png" />
+        </div>
+        <div class="mx-8">
+            <div class="mb-4">
+                <span class="text-base block font-semibold text-red-800">
+                    Agent မှ တစ်ဆင့်ငွေသွင်းပါက
+                </span>
+                <span class="text-sm block">
+                    - Code – 100183641 သို့ ပေးသွင်းရပါမည်။ Note တွင် ကျောင်းသား၏
+                    အမည်နှင့်ဖုန်းနံပါတ်ကို ထည့်သွင်းပေးရပါမည်။
+                </span>
+            </div>
+            <div>
+                <span class="text-base block font-semibold text-red-800">
+                    ကိုယ်ပိုင် KBZ Pay ဖြင့်ငွေသွင်းပါက
+                </span>
+                <span class="text-sm block">
+                    - Scan & Pay ကိုနှိပ်ပါ။ Manual Pay ကိုသွားပြီး Payment to Merchant
+                    ကိုရွေးပါ။ Enter Code တွင် 100183641 ဖြည့်ပါ။ လွှဲလိုသည့်Amount
+                    ကိုဖြည့်ပြီး Note တွင် ကျောင်းသား/သူ၏ အမည်နှင့်ဖုန်းနံပါတ်ကို
+                    ထည့်သွင်းပေးရပါမည်။
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="bg-gray-500 rounded-md mx-32 p-8 flex justify-between mb-4">
+        <div>
+            <p class="text-white min-w-7">2. Wave Money</p>
+            <img class="w-24 h-24" src="https://concept-xvideos.sgp1.digitaloceanspaces.com/edx-assets/wave_money.png" />
+        </div>
+        <div class="mx-8">
+            <div class="mb-4">
+                <span class="text-base block font-semibold text-red-800">
+                    Agent ကနေ ငွေလွှဲချင်တယ်ဆိုရင်
+                </span>
+                <span class="text-sm block">
+                    - အကောင့်နံပါတ် 09 797 465 365 ငွေလွဲမည်ဟုပြောရန်။
+                    (အကောင့်ထဲထည့်မည့်ဟုပြောရန်)
+                </span>
+            </div>
+            <div>
+                <span class="text-base block font-semibold text-red-800">
+                    ကိုယ်ပိုင် Wave Pay App ဖြင့်ငွေသွင်းပါက
+                </span>
+                <span class="text-sm block">
+                    - WavePay App ကိုဖွင့်ပါ။ ငွေလွှဲကိုသွားပါ။ လွဲမည့်ဖုန်း နံပါတ် 09
+                    797 465 365 ကိုထည့်ပါ။ လွှဲမည့် ငွေပမာဏထည့်ပါ။
+                    ဆက်လက်လုပ်ဆောင်မည်ကိုနှိပ်၍ ငွေလွှဲနိုင်ပါသည်။
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="bg-gray-500 rounded-md mx-32 p-8 mb-4">
+        <div class="text-white">3. Bank Transfer</div>
+        <div class="flex content-between mt-4">
+            <div class="flex-1 text-center text-sm">
+                <img src="https://concept-xvideos.sgp1.digitaloceanspaces.com/edx-assets/aya_bank.png" />
+                <h3 class="text-red-800">AYA Account</h3>
+                <p>006 322 401 000 8685</p>
+                <p>ACK & Co Services Co., Ltd.</p>
+            </div>
+            <div class="flex-1 text-center text-sm">
+                <img src="https://concept-xvideos.sgp1.digitaloceanspaces.com/edx-assets/kbz_bank.png" />
+                <h3 class="text-red-800">KBZ Account</h3>
+                <p>029 304 029 030 43401</p>
+                <p>ACK & Co Services Co., Ltd.</p>
+            </div>
+            <div class="flex-1 text-center text-sm">
+                <img src="https://concept-xvideos.sgp1.digitaloceanspaces.com/edx-assets/cb_bank.png" />
+                <h3 class="text-red-800">CB Account</h3>
+                <p>001 010 050 003 3189</p>
+                <p>ACK & Co Services Co., Ltd.</p>
+            </div>
+            <div class="flex-1 text-center text-sm">
+                <img src="https://concept-xvideos.sgp1.digitaloceanspaces.com/edx-assets/agd_bank.png" />
+                <h3 class="text-red-800">AGD Account</h3>
+                <p>325 001 100 095 9016</p>
+                <p>ACK & Co Services Co., Ltd.</p>
+            </div>
+        </div>
+    </div>
+</main>
