@@ -1,0 +1,246 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+.text1{
+	color: #3e9dee;
+	font-size: 12px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+#nav{
+	color: white;
+	margin-top: 1%;
+	font-size: 12px;
+}
+#container{
+	background-color: #dedede;
+
+}
+#certificate{
+	border-top: 1px solid #d5d6d6;
+
+}
+.hello{
+	width: 105%;
+}
+.seemore{
+	border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 5px 25px;
+  color: black;
+  background-color: #3e9dee;
+  text-align: center;
+  cursor: pointer;
+width: 83%;;
+margin-left: 115px;
+}
+.footerp{
+	color: #3e9dee;
+}
+.footer{
+	background-color: #dedede;
+	font-size: 12px;
+}
+
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  margin-bottom: 10%;
+  
+}
+
+.pagination a.active {
+  background-color: #43a0ee;
+  color: white;
+  border-radius: 100%;
+
+}
+.previous {
+ border:2px solid #e1e1e1;
+  color: black;
+}
+
+.next {
+  border:2px solid #70b9f8;
+  color: white;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.lol:hover {background-color: #ddd;border-radius: 100%; height : 40px;}
+
+#button{
+	display: inline-block;
+	background-color: white;
+	border:1px solid black;
+	font-size: 12px;
+	padding: 8px;
+	margin-right: 2px;
+	margin-top: 8px;
+}
+#text2{
+	font-size: 11px;
+	margin-top: 10px;
+}
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../image/herobanner.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  color: white;
+  text-align: center;
+
+}
+#radius{
+  border-radius: 10px 10px 10px 10px;
+}
+form.example input[type=text] , #ph{
+  margin-top: 10px;
+  padding: 7px;
+  font-size: 13px;
+  border: 1px solid grey;
+  width: 80%;
+  background: #b5b8bf;
+  float: left;
+  border-left: none;
+}
+
+form.example button {
+  margin-top: 10px;
+  float: left;
+  width: 13%;
+  padding: 7px;
+  background: #2f2f2f;
+  color: #878787;
+  font-size: 13px;
+  border: 1px solid grey;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 21px;
+
+}
+
+#register{
+  margin-top: 10px;
+  float: center;
+  width: 94%;
+  padding: 5px;
+  background: #f9d133;
+  color: #878787;
+  font-size: 13px;
+  color:black;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 21px;
+  border:none;
+}
+#register:hover{
+  border : 2px solid #f9d133;
+  background : #b9b9b7;
+  color: white;
+}
+.bgimage{
+  background-image: url("../image/image2.jpg");
+  height: 50%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.coursecategory{
+    list-style: none;
+display: block;
+}
+
+.coursecategory li{
+  cursor: pointer;
+    margin: 15px 15px 15px 0;
+    display: inline-block;
+    padding: 6px 10px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #413e66;
+    margin-bottom: 5px;
+}
+
+.coursecategory li.active{
+  border-bottom: 3px solid #339df8;
+}
+#categorycard{
+  width: 50%;
+  margin-left: 10%;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding:10px; /* Should be removed. Only for demonstration */
+}
+
+.column1{
+ float: left;
+  width: 15%;
+  padding:10px; 
+}
+.column8{
+  float: left;
+  width: 50%;
+  padding:10px; 
+}
+.column2{
+  float: left;
+  width: 20%;
+  padding:10px; 
+}
+
+/* Clear floats after the columns */
+.rows:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    border:none;
+    float: center;
+  }
+  .column1 {
+    width: 100%;
+    border:none;
+    float: center;
+  }
+  .column2 {
+    width: 100%;
+    border:none;
+    float: center;
+  }
+  .column8 {
+    width: 100%;
+    border:none;
+    float: center;
+  }
+  #certificate{
+    border:none;
+  }
+}
+
+

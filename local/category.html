@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <!--navigation bar-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html" style="margin-left: 10%">
+    <img src="image/logo.png" width="70" height="30" alt="" loading="lazy">
+  </a>
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item dropdown">
+        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size: 11px; margin-top: 3px">
+          <i class="fa fa-list-alt"></i><b> Catagories</b>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Certificate Courses</a>
+          <a class="dropdown-item" href="#">Doploma Courses</a>
+          <a class="dropdown-item" href="#">Post Graduate Courses</a>
+        </div>
+      </li>
+      <li class="nav-item" id="navigation">
+       <form class="form-inline my-2 my-lg-0">
+      <input class="form-control" type="search" placeholder="Search" style="font-size:10px; padding:9px 400px 9px 9px;text-align: left">
+      <button type="submit" style="margin-left: -45px; border:none;background-color: white"><i class="fa fa-search"></i></button>
+    </form>
+      </li>
+      
+    </ul>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+    <ul class="nav navbar-nav">
+      <li class="nav-item" style="border-right: 1px solid black">
+       <a class="nav-link" href="payment.html" id="text2"><b>Payment</b></a>
+      </li>
+      <li class="nav-item" style="margin-left: 10px;">
+        <a class="nav-link" href="login.html" id="button"><b>Login</b></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="signup.html" id="button" style="background-color: #339df8;border:none;color:white;border:1px #339df8; padding: 9px"><b>Signup</b></a>
+      </li>
+
+    </ul>
+  </div>
+  </div>
+</nav>
+<!--navigation bar-->
+<div class="container-fluid">
+  <div class="row">
+<div class="col-sm-1"></div>
+<div class="col-sm-11">
+<h5 style="margin-left:18px;">Business English</h5>
+  </div>
+  </div>
+</div>
+<div class="bgimage"></div>
+<div class="coursecat">
+  <ul class="coursecategory" style="margin-left:7% ;">
+    <li class="active" style="font-size: 15px"><a href="category.html" style="color:#929292;">Course Content</a></li>
+    <li style="font-size: 15px; color: black"><a href="learn.html" style="color:#929292;">What you'll learn</a></li>
+    <li style="font-size: 15px"><a href="instructors.html" style="color:#929292;">Lecture's information</a></li>
+  </ul>
+</div>
+<div class="accordion" id="accordionExample" style="margin-top:-21px;margin-bottom: 5%;">
+  <div class="card" id="categorycard">
+      
+        <button class="btn text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="color: #646567; font-size: 13px" id="headingOne">
+          <p style="margin-top: 10px;"><b>Section 1 : Introduction</b><i class="fa fa-angle-down" style="float: right"></i></p>
+          <p style="font-size: 10px; margin-bottom: 1px; margin-top: -20px;">2/2 | 3min</p>
+        </button>
+    </div>
+
+    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body" id="categorycard" style="background-color: #f1f4f8">
+       <p style="color: #bbbcbe; font-size: 10px; margin-top: -10px;"> <i class="fa fa-check-square" style="color:#339df8"></i><b> 1.Introduction</b>
+        </p>
+        <p style="color: #bbbcbe; font-size: 10px; margin-top: -10px;margin-left: 12px;"> <i class="fa fa-play-circle"></i><b> 2min</b>
+        </p>
+         <p style="color:#bbbcbe; font-size: 10px;margin-top: -10px;"><i class="fa fa-check-square" style="color:#339df8"></i><b> 2.Bonus lecture</b></p>
+         <p style="color: #bbbcbe; font-size: 10px; margin-top: -10px; margin-left: 12px; margin-bottom: -10px;"> <i class="fa fa-play-circle"></i><b> 2min</b>
+        </p>
+      </div>
+    </div>
+    <div class="card" id="categorycard">
+      
+       <button class="btn text-left" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo" style="color: #646567; font-size: 13px" id="headingOne">
+          <p style="margin-top: 10px;"><b>Section 2 : Deploying a Google Cloud Instance</b><i class="fa fa-angle-down" style="float: right"></i></p>
+          <p style="font-size: 10px; margin-bottom: 1px; margin-top: -20px;">2/2 | 3min</p>
+        </button>
+    </div>
+
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body" id="categorycard" style="background-color: #f1f4f8">
+        <p style="color: #bbbcbe; font-size: 10px; margin-top: -10px;"> <i class="fa fa-check-square" style="color:#339df8"></i><b> 1.Introduction</b>
+        </p>
+        <p style="color: #bbbcbe; font-size: 10px; margin-top: -10px;margin-left: 12px;"> <i class="fa fa-play-circle"></i><b> 2min</b>
+        </p>
+         <p style="color:#bbbcbe; font-size: 10px;margin-top: -10px;"><i class="fa fa-check-square" style="color:#339df8"></i><b> 2.Bonus lecture</b></p>
+         <p style="color: #bbbcbe; font-size: 10px; margin-top: -10px; margin-left: 12px; margin-bottom: -10px;"> <i class="fa fa-play-circle"></i><b> 2min</b>
+        </p>
+      </div>
+    </div>
+      <div class="card" id="categorycard">
+      
+        <button class="btn text-left" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree" style="color: #646567; font-size: 13px" id="headingOne">
+          <p style="margin-top: 10px;"><b>Section 3 : Getting Started with Plesk ONyx</b><i class="fa fa-angle-down" style="float: right"></i></p>
+          <p style="font-size: 10px; margin-bottom: 1px; margin-top: -20px;">2/2 | 3min</p>
+        </button>
+    </div>
+
+
+    <div id="collapseThree" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body" id="categorycard" style="background-color: #f1f4f8">
+         <p style="color: #bbbcbe; font-size: 10px; margin-top: -10px;"> <i class="fa fa-check-square" style="color:#339df8"></i><b> 1.Introduction</b>
+        </p>
+        <p style="color: #bbbcbe; font-size: 10px; margin-top: -10px;margin-left: 12px;"> <i class="fa fa-play-circle"></i><b> 2min</b>
+        </p>
+         <p style="color:#bbbcbe; font-size: 10px;margin-top: -10px;"><i class="fa fa-check-square" style="color:#339df8"></i><b> 2.Bonus lecture</b></p>
+         <p style="color: #bbbcbe; font-size: 10px; margin-top: -10px; margin-left: 12px; margin-bottom: -10px;"> <i class="fa fa-play-circle"></i><b> 2min</b>
+        </p>
+      </div>
+       </div>
+      <div class="card" id="categorycard">
+      
+        <button class="btn text-left" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour" style="color: #646567; font-size: 13px" id="headingOne">
+          <p style="margin-top: 10px;"><b>Section 4 : Managing Wordpress Website with the WordPress Toolkit</b><i class="fa fa-angle-down" style="float: right"></i></p>
+          <p style="font-size: 10px; margin-bottom: 1px; margin-top: -20px;">2/2 | 3min</p>
+        </button>
+    </div>
+
+    <div id="collapseFour" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body" id="categorycard" style="background-color: #f1f4f8">
+         <p style="color: #bbbcbe; font-size: 10px; margin-top: -10px;"> <i class="fa fa-check-square" style="color:#339df8"></i><b> 1.Introduction</b>
+        </p>
+        <p style="color: #bbbcbe; font-size: 10px; margin-top: -10px;margin-left: 12px;"> <i class="fa fa-play-circle"></i><b> 2min</b>
+        </p>
+         <p style="color:#bbbcbe; font-size: 10px;margin-top: -10px;"><i class="fa fa-check-square" style="color:#339df8"></i><b> 2.Bonus lecture</b></p>
+         <p style="color: #bbbcbe; font-size: 10px; margin-top: -10px; margin-left: 12px; margin-bottom: -10px;"> <i class="fa fa-play-circle"></i><b> 2min</b>
+        </p>
+      </div>
+       </div>
+      <div class="card" id="categorycard">
+      
+       <button class="btn text-left" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive" style="color: #646567; font-size: 13px" id="headingOne">
+          <p style="margin-top: 10px;"><b>Section 5 : Using Plesk Mail Services</b><i class="fa fa-angle-down" style="float: right"></i></p>
+          <p style="font-size: 10px; margin-bottom: 1px; margin-top: -20px;">2/2 | 3min</p>
+        </button>
+    </div>
+
+    <div id="collapseFive" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body" id="categorycard" style="background-color: #f1f4f8">
+         <p style="color: #bbbcbe; font-size: 10px; margin-top: -10px;"> <i class="fa fa-check-square" style="color:#339df8"></i><b> 1.Introduction</b>
+        </p>
+        <p style="color: #bbbcbe; font-size: 10px; margin-top: -10px;margin-left: 12px;"> <i class="fa fa-play-circle"></i><b> 2min</b>
+        </p>
+         <p style="color:#bbbcbe; font-size: 10px;margin-top: -10px;"><i class="fa fa-check-square" style="color:#339df8"></i><b> 2.Bonus lecture</b></p>
+         <p style="color: #bbbcbe; font-size: 10px; margin-top: -10px; margin-left: 12px; margin-bottom: -10px;"> <i class="fa fa-play-circle"></i><b> 2min</b>
+        </p>
+      </div>
+       </div>
+      <div class="card" id="categorycard">
+      
+        <button class="btn text-left" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix" style="color: #646567; font-size: 13px" id="headingOne">
+          <p style="margin-top: 10px;"><b>Section 6 : Conclusion</b><i class="fa fa-angle-down" style="float: right"></i></p>
+          <p style="font-size: 10px; margin-bottom: 1px; margin-top: -20px;">2/2 | 3min</p>
+        </button>
+    </div>
+
+    <div id="collapseSix" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body" id="categorycard" style="background-color: #f1f4f8">
+         <p style="color: #bbbcbe; font-size: 10px; margin-top: -10px;"> <i class="fa fa-check-square" style="color:#339df8"></i><b> 1.Introduction</b>
+        </p>
+        <p style="color: #bbbcbe; font-size: 10px; margin-top: -10px;margin-left: 12px;"> <i class="fa fa-play-circle"></i><b> 2min</b>
+        </p>
+         <p style="color:#bbbcbe; font-size: 10px;margin-top: -10px;"><i class="fa fa-check-square" style="color:#339df8"></i><b> 2.Bonus lecture</b></p>
+         <p style="color: #bbbcbe; font-size: 10px; margin-top: -10px; margin-left: 12px; margin-bottom: -10px;"> <i class="fa fa-play-circle"></i><b> 2min</b>
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="footer">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-3" style="margin-right:10%; margin-top: 2%"><p class="footerp"><b>Address</b></p>
+          <p>
+            Room 221,Sule Square, 1st Floor,
+          </p>
+          <p>Sule Pagoda Road, Kyauktada Township, Yangon, 11181</p></div>
+        <div class="col-sm-2" style="margin-right: 10%;  margin-top: 2%">
+          <p class="footerp"><b>Hotline</b></p>
+          <p>
+            +959 45520 5208
+          </p>
+        </div>
+        <div class="col-sm-2" style="margin-right: 10%;  margin-top: 2%">
+          <p class="footerp"><b>Email</b></p>
+          <p>
+            info@mib-edu.com
+          </p>
+        </div>
+      </div>
+    </div>
+      <div class="col-lg-4">
+        <div class="col-sm-2" style="margin-top: 2%; ">
+          <p class="footerp"><b>Map</b></p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15279.922108165854!2d96.1584451!3d16.7776444!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x15ed90680a7f6953!2sMyanmar%20Institute%20Of%20Business!5e0!3m2!1sen!2smm!4v1590395843530!5m2!1sen!2smm" width="300" height="150" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+        </div>
+      
+      </div>
+    </div>
+    <div class="container-fluid" style="background-color: black">
+      <div class="row">
+        <div class="col-sm-12"><p style="text-align: center; color: white; margin-top: 1%; font-size: 12px;"><b>&copy; Copyright 2020.All right reserved.Designed by <span style="color: #3e9dee">ConceptX</span></b></p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
