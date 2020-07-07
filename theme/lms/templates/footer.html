@@ -39,7 +39,7 @@
           </nav>
           {% endif %}
         </div>
-        <!-- <div class="col-md-3">
+        <div class="col-md-3">
           ## Please leave this link and use one of the logos provided
           ## The OpenEdX link may be hidden when this view is served
           ## through an API to partner sites (such as marketing sites or blogs),
@@ -56,7 +56,7 @@
               </p>
             </div>
           % endif
-        </div> -->
+        </div>
       </div>
     </footer>
   </div>
@@ -71,16 +71,16 @@
       % endif
     >
       <div class="colophon">
-        <!-- {% if INDIGO_FOOTER_NAV_LINKS %} -->
+        {% if INDIGO_FOOTER_NAV_LINKS %}
         <nav class="nav-colophon" aria-label="${_('About')}">
           <ol>
               <li><a href="https://studio.mibonlinelearning.com/">Studio</a></li>
-              <!-- {% for link in INDIGO_FOOTER_NAV_LINKS %}
+              {% for link in INDIGO_FOOTER_NAV_LINKS %}
               <li><a href="{{ link['url'] }}">{{ link['title'] }}</a></li>
-              {% endfor %} -->
+              {% endfor %}
           </ol>
         </nav>
-        <!-- {% endif %} -->
+        {% endif %}
         % if context.get('include_language_selector', footer_language_selector_is_enabled()):
             <%include file="${static.get_template_path('widgets/footer-language-selector.html')}"/>
         % endif
@@ -116,7 +116,7 @@
         {% endif %}
       </div>
 
-      <!-- ## Please leave this link and use one of the logos provided
+      ## Please leave this link and use one of the logos provided
       ## The OpenEdX link may be hidden when this view is served
       ## through an API to partner sites (such as marketing sites or blogs),
       ## which are not technically powered by OpenEdX.
@@ -131,7 +131,7 @@
           </a>
         </p>
       </div>
-      % endif -->
+      % endif
     </footer>
   </div>
 % endif
