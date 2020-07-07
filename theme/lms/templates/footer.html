@@ -71,16 +71,16 @@
       % endif
     >
       <div class="colophon">
-        {% if INDIGO_FOOTER_NAV_LINKS %}
+        <!-- {% if INDIGO_FOOTER_NAV_LINKS %} -->
         <nav class="nav-colophon" aria-label="${_('About')}">
           <ol>
-              <li><a href="https://studio.mibonlinelearning.com/">{{ link['title'] }}</a></li>
+              <li><a href="https://studio.mibonlinelearning.com/">Studio</a></li>
               <!-- {% for link in INDIGO_FOOTER_NAV_LINKS %}
               <li><a href="{{ link['url'] }}">{{ link['title'] }}</a></li>
               {% endfor %} -->
           </ol>
         </nav>
-        {% endif %}
+        <!-- {% endif %} -->
         % if context.get('include_language_selector', footer_language_selector_is_enabled()):
             <%include file="${static.get_template_path('widgets/footer-language-selector.html')}"/>
         % endif
