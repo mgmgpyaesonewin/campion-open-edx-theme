@@ -74,9 +74,10 @@
         {% if INDIGO_FOOTER_NAV_LINKS %}
         <nav class="nav-colophon" aria-label="${_('About')}">
           <ol>
-              {% for link in INDIGO_FOOTER_NAV_LINKS %}
+              <li><a href="https://studio.mibonlinelearning.com/">{{ link['title'] }}</a></li>
+              <!-- {% for link in INDIGO_FOOTER_NAV_LINKS %}
               <li><a href="{{ link['url'] }}">{{ link['title'] }}</a></li>
-              {% endfor %}
+              {% endfor %} -->
           </ol>
         </nav>
         {% endif %}
@@ -94,7 +95,7 @@
               ## can be included in the footer on other sites
               ## (e.g. a blog or marketing front-end) to provide a consistent
               ## user experience.  See the branding app for details.
-              <img alt="organization logo" src="${footer['logo_image']}">
+              <img alt="organization logo" src="${static.url('images/logo.png')}">
             </a>
           </p>
         </div>
