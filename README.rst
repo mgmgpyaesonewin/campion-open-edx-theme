@@ -13,11 +13,11 @@ Indigo was specially developed to be used with `Tutor <https://docs.overhang.io>
 
 Clone the theme repository::
 
-    git clone https://github.com/overhangio/indigo
+    git clone https://github.com/mgmgpyaesonewin/kudos-edx-theme.git
 
 Render your theme::
     
-    tutor config render --extra-config ./indigo/config.yml ./indigo/theme "$(tutor config printroot)/env/build/openedx/themes/indigo"
+    tutor config render --extra-config ./kudos-edx-theme/config.yml ./kudos-edx-theme/theme "$(tutor config printroot)/env/build/openedx/themes/indigo"
 
 Rebuild the Openedx docker image::
 
