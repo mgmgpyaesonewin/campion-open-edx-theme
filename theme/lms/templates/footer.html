@@ -74,7 +74,6 @@
         {% if INDIGO_FOOTER_NAV_LINKS %}
         <nav class="nav-colophon" aria-label="${_('About')}">
           <ol>
-              <li><a href="https://studio.mibonlinelearning.com/">Studio</a></li>
               {% for link in INDIGO_FOOTER_NAV_LINKS %}
               <li><a href="{{ link['url'] }}">{{ link['title'] }}</a></li>
               {% endfor %}

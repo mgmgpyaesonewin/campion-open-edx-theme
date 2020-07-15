@@ -123,6 +123,7 @@ header.global-header .nav-links .secondary .dropdown-user-menu {
     padding-bottom: 0;
   }
   .details .inner-wrapper > section {
+    display: none;
     margin-bottom: 0;
   }
   header.course-profile .intro-inner-wrapper .intro .main-cta {
@@ -195,8 +196,11 @@ header.global-header .nav-links .secondary .dropdown-user-menu {
   .nav-legal ul {
     display: inline-block;
   }
+  footer#footer-openedx .footer-about-copyright {
+    display: none;
+  }
   footer#footer-openedx .footer-about-openedx a {
-    float: none;
+    display: none;
   }
 }
 
