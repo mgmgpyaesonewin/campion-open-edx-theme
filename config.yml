@@ -5,5 +5,7 @@ INDIGO_PRIMARY_COLOR: "#3b85ff" # cool blue
 # To remove all links, write:
 # INDIGO_FOOTER_NAV_LINKS: []
 # INDIGO_FOOTER_LEGAL_LINKS: []
-INDIGO_FOOTER_NAV_LINKS: []
+INDIGO_FOOTER_NAV_LINKS:
+  - title: "Studio"
+    url: "https://studio.kudos.academy"
 INDIGO_FOOTER_LEGAL_LINKS: []
