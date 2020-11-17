@@ -17,7 +17,7 @@ Clone the theme repository::
 
 Render your theme::
     
-    tutor config render --extra-config ./kudos-edx-theme/config.yml ./kudos-edx-theme/theme "$(tutor config printroot)/env/build/openedx/themes/indigo"
+    tutor config render --extra-config ./campion-open-edx-theme/config.yml ./campion-open-edx-theme/theme "$(tutor config printroot)/env/build/openedx/themes/indigo"
 
 Rebuild the Openedx docker image::
 
